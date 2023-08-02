@@ -1,0 +1,45 @@
+/*HEADER*/
+
+.logo {
+    width: 20rem;
+}
+
+.fuentes {
+    font-size: 1rem;
+    padding-left: 2rem;
+    text-transform: uppercase;
+}
+
+.fuentes li:hover {
+    background-color: rgb(135, 135, 228);
+}
+
+header {
+    border-bottom: 2px solid black;
+}
+
+/*HERO*/
+
+.colorBtn {
+    background-color: black;
+    color: rgb(241, 243, 246);
+}
+
+.colorBtn:hover {
+    background-color: rgb(28, 2, 94);
+    color: #ffff;
+}
+
+.tituloServicios {
+    background-color: rgb(3, 3, 121);
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 1rem;
+}
+
+.imgCarrousel {
+    height: 350px;
+    object-fit: cover;
+}
