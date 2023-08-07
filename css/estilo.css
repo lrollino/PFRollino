@@ -1,3 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*BODY*/
+
+body {
+    background-color: rgb(74, 166, 227);
+}
+
 /*HEADER*/
 
 .logo {
@@ -30,7 +41,7 @@ header {
     color: #ffff;
 }
 
-.tituloServicios {
+.tituloHtml {
     background-color: rgb(3, 3, 121);
     color: #fff;
     text-align: center;
@@ -42,4 +53,54 @@ header {
 .imgCarrousel {
     height: 350px;
     object-fit: cover;
+}
+
+/*FORMULARIO*/
+
+form {
+    margin-top: 20px;
+
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: black;
+
+}
+
+input, textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 5px solid white;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.btnFormulario {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+
+
+}
+
+/*SUCURSAL*/
+
+iframe {
+    display: block;
+    margin: auto;
+}
+
+main {
+    margin: 25px;
+    padding: 25px;
 }
