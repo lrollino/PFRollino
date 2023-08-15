@@ -1,0 +1,18 @@
+/*HEADER*/
+
+header {
+	border-bottom: 2px solid black;
+	.logo {
+		width: 20rem;
+	}
+	.fuentes {
+		font-size: 1rem;
+		padding-left: 2rem;
+		text-transform: uppercase;
+		li {
+			&:hover {
+				background-color: rgb(135, 135, 228);
+			}
+		}
+	}
+}

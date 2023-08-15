@@ -1,110 +1,110 @@
+/*HEADER*/
+header {
+  border-bottom: 2px solid black;
+}
+header .logo {
+  width: 20rem;
+}
+header .fuentes {
+  font-size: 1rem;
+  padding-left: 2rem;
+  text-transform: uppercase;
+}
+header .fuentes li:hover {
+  background-color: rgb(135, 135, 228);
+}
+
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 /*BODY*/
-
 body {
-    background-color: rgb(168, 167, 172);
+  background-color: rgb(168, 167, 172);
 }
 
-/*HEADER*/
-
-.logo {
-    width: 20rem;
-}
-
-.fuentes {
-    font-size: 1rem;
-    padding-left: 2rem;
-    text-transform: uppercase;
-}
-
-.fuentes li:hover {
-    background-color: rgb(135, 135, 228);
-}
-
-header {
-    border-bottom: 2px solid black;
-}
-
-/*HERO*/
-
-.colorBtn {
-    background-color: black;
-    color: rgb(241, 243, 246);
-}
-
-.colorBtn:hover {
-    background-color: rgb(28, 2, 94);
-    color: #ffff;
-}
-
+/*TITULO HTML*/
 .tituloHtml {
-    background-color: rgb(3, 3, 121);
-    color: #fff;
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: bold;
-    padding: 1rem;
+  background-color: rgb(36, 30, 70);
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 1rem;
 }
 
 .imgCarrousel {
-    height: 350px;
-    object-fit: cover;
+  height: 350px;
+  object-fit: cover;
 }
 
 /*FORMULARIO*/
-
 form {
-    margin-top: 20px;
-
+  margin-top: 20px;
 }
 
 label {
-    display: block;
-    font-weight: bold;
-    margin-bottom: 5px;
-    color: black;
-
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: black;
 }
 
 input, textarea {
-    display: block;
-    width: 100%;
-    padding: 10px;
-    border: 5px solid white;
-    border-radius: 10px;
-    font-size: 20px;
-    margin-bottom: 20px;
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: 5px solid white;
+  border-radius: 10px;
+  font-size: 20px;
+  margin-bottom: 20px;
 }
 
 .btnFormulario {
-    background-color: black;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 10px;
-    font-size: 20px;
-    margin-top: 10px;
-    cursor: pointer;
-
-
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 20px;
+  margin-top: 10px;
+  cursor: pointer;
 }
 
 /*SUCURSAL*/
-
 iframe {
-    display: block;
-    margin: auto;
+  display: block;
+  margin: auto;
 }
 
 main {
-    margin: 25px;
-    padding: 25px;
+  margin: 25px;
+  padding: 25px;
 }
 
 .tituloH3 {
-    text-align: center;
+  text-align: center;
 }
+
+section .colorBtn {
+  background-color: black;
+  color: rgb(241, 243, 246);
+}
+section .colorBtn:hover {
+  background-color: rgb(28, 2, 94);
+  color: white;
+}
+
+.parrafosConEstilo {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.parrafosConEstilo2 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 1rem;
+}
+
+/*# sourceMappingURL=estilo.css.map */
