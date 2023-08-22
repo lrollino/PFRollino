@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -8,7 +8,9 @@
     <title>Mediterranea Carghas - Nuestros servicios disponibles.</title>
     <!-- ETIQUETA META -->
     <meta name="description" content="Brindamos servicios de transporte internacional desde y hacia cualquier
-    parte del mundo">
+    parte del mundo, nos especializmos en el trasnporte marítimo hace más de 25 años, ofrecemos servicios de 
+    contenedores full, consolidados y también cargas a granel. Contamos con representantes en todo el mundo, lo que
+    hace que su carga tenga seguimiendo contínuo por parte de nuestros colaboradores.">
     <!-- ETIQUETA META-KEYWORDS -->
     <meta name="keywords" content="agentes de carga, comex, comercio exterior, transporte de cargas, aéreo,
     terrestre, marítimo, empresa de transporte, multimodal, contenedores, logística">
@@ -18,11 +20,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <!-- ANIMATE -->
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
-        <!-- CSS PROPIO -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- CSS PROPIO -->
     <link rel="stylesheet" href="../css/estilo.css">
 </head>
 
@@ -64,63 +63,75 @@
     <!-- SERVICIOS -->
 
     <main>
-        <div class="tituloHtml mt-1">
-            <h2>Servicios</h2>
-        </div>
+        <section>
+            <div class="tituloHtml mt-1">
+                <h1>Servicios</h1>
+            </div>
+        </section>
+
+        <section>
+            <h2 class="tituloH2 animate__animated animate__flip margin">Nuestros Servicios</h2>
+        </section>
+
+
+        <!-- CARROUSEL -->
+
+        <section id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="../img/buque2.webp" class="d-block w-100 imgCarrousel img-fluid"
+                        alt="esto es una imagen de buque">
+                </div>
+                <div class="carousel-item">
+                    <img src="../img/contenedores.jpeg" class="d-block w-100 imgCarrousel img-fluid"
+                        alt="esto es una imagen de contenedores">
+                </div>
+                <div class="carousel-item">
+                    <img src="../img/puerto.webp" class="d-block w-100 imgCarrousel img-fluid"
+                        alt="esto es una imagen de un puerto de cargas">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </section>
+
+        <section>
+            <p class="parrafosConEstilo marginTop">Transportamos mercancías desde y hacia todo el mundo. Especializados
+                en
+                transporte marítimo desde hace más de 25
+                años.</p>
+
+            <p class="parrafosConEstilo">Ofrecemos precios competitivos y nuestra modalidad de trabajo avalan nuestra
+                trayectoria. Contamos con un grupo de profesionales trabajando las 24 horas en distintos puntos del
+                planeta
+                para
+                que su carga este vigilada en todo momento.</p>
+
+            <p class="parrafosConEstilo">
+                Comunícate con nuestro equipo para recibir una cotización.
+            </p>
+        </section>
     </main>
-
-    <h3 class="tituloH3 animate__animated animate__flip">Nuestros Servicios</h3>
-
-
-    <!-- CARROUSEL -->
-
-    <section id="carouselExample" class="carousel slide">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="../img/buque2.webp" class="d-block w-100 imgCarrousel img-fluid" alt="buque">
-            </div>
-            <div class="carousel-item">
-                <img src="../img/contenedores.jpeg" class="d-block w-100 imgCarrousel img-fluid" alt="contenedores">
-            </div>
-            <div class="carousel-item">
-                <img src="../img/puerto.webp" class="d-block w-100 imgCarrousel img-fluid" alt="puerto">
-            </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
-    </section>
-
-    <p class="parrafosConEstilo">Transportamos mercancías desde y hacia todo el mundo. Especializados en transporte marítimo desde hace más de 25
-        años.</p>
-
-    <p class="parrafosConEstilo">Ofrecemos precios competitivos y nuestra modalidad de trabajo avalan nuestra trayectoria. Comunícate con nuestro
-        equipo para recibir una cotización.</p>
 
     <!-- FOOTER -->
 
-    <section class="container">
-        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-            <div class="col-md-4 d-flex align-items-center">
-                <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
-                    <svg class="bi" width="30" height="24">
-                        <use xlink:href="#bootstrap" />
-                    </svg>
-                </a>
-                <span class="mb-3 mb-md-0 text-body-secondary">&copy; 2023 Mediterranea Carghas - Derechos
-                    reservados</span>
-            </div>
-        </footer>
-    </section>
-
-
-
-
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <div class="col-md-4 d-flex align-items-center">
+            <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+                <svg class="bi" width="30" height="24">
+                    <use xlink:href="#bootstrap" />
+                </svg>
+            </a>
+            <span class="mb-3 mb-md-0 text-body-secondary">&copy; 2023 Mediterranea Carghas - Derechos
+                reservados</span>
+        </div>
+    </footer>
 
 
     <!-- JS BS -->
