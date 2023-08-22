@@ -3,7 +3,7 @@ header {
   border-bottom: 2px solid black;
 }
 header .logo {
-  width: 30rem;
+  width: 20rem;
 }
 header .fuentes {
   font-size: 1rem;
@@ -31,7 +31,7 @@ body {
   text-align: center;
   text-transform: uppercase;
   font-weight: bold;
-  padding: 1rem;
+  padding: 0.5rem;
 }
 
 .imgCarrousel {
