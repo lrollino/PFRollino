@@ -91,3 +91,29 @@ main {
 .marginTop {
     margin-top: 25px;
 }
+
+.carrrousel {
+    display: flex;
+    overflow: hidden;
+}
+
+.carrrousel img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+
+.imgPrincipal {
+    display: inline-block;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 2px solid black;
+  }
+  
+.imgPrincipal {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
